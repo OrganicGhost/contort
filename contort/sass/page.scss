@@ -1,0 +1,63 @@
+@import "variables";
+@import "mixins";
+
+@import "buttons";
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barriecito-regular {
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+      
+body {
+    background-color: $black;
+    color: azure;
+    @extend .libre-baskerville-regular;
+}
+
+.header { 
+    color: azure;    
+    background-image:url(../img/kateandnickwebcrunched.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    h2 {
+        @extend .barriecito-regular;
+    }
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    background-image:url(../img/honeyrose1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    background: black;
+}

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/page.css",
+	"sources": [
+		"../sass/page.scss"
+	],
+	"sourcesContent": [
+		".libre-baskerville-regular {\n  font-family: \"Libre Baskerville\", serif;\n  font-weight: 400;\n  font-style: normal;\n}\n\n.libre-baskerville-bold {\n  font-family: \"Libre Baskerville\", serif;\n  font-weight: 700;\n  font-style: normal;\n}\n\n.libre-baskerville-regular-italic {\n  font-family: \"Libre Baskerville\", serif;\n  font-weight: 400;\n  font-style: italic;\n}\n\n.barriecito-regular {\n  font-family: \"Barriecito\", system-ui;\n  font-weight: 400;\n  font-style: normal;\n}\n      \nbody {\n    background: black;\n    color: azure;\n    @extend .libre-baskerville-regular;\n}\n\n\n.header { \n    \n    background: red;\n    color: azure;    \n    background-image:url(../img/kateandnickwebcrunched.jpg);\n    background-repeat: no-repeat;\n    background-position: center top;\n    background-size: cover;\n    \n    h2 {\n        font-family: \"Barriecito\", system-ui;\n    }\n}\n\n.card {\n    margin-left: auto;\n    margin-right: auto;\n}\n\n.about {\n     background: black;\n    color: azure;  \n    background-image:url(../img/honeyrose1.jpg);\n    background-repeat: no-repeat;\n    background-position: center top;\n    background-size: cover;\n       \n}"
+	],
+	"mappings": ";AAAA,AAAA,0BAA0B,EAwB1B,AAxBA,IAwBI,CAxBuB;EACzB,WAAW,EAAE,0BAA2B;EACxC,WAAW,EAAE,GAAI;EACjB,UAAU,EAAE,MAAO;CACpB;;;AAED,AAAA,uBAAuB,CAAC;EACtB,WAAW,EAAE,0BAA2B;EACxC,WAAW,EAAE,GAAI;EACjB,UAAU,EAAE,MAAO;CACpB;;;AAED,AAAA,iCAAiC,CAAC;EAChC,WAAW,EAAE,0BAA2B;EACxC,WAAW,EAAE,GAAI;EACjB,UAAU,EAAE,MAAO;CACpB;;;AAED,AAAA,mBAAmB,CAAC;EAClB,WAAW,EAAE,uBAAwB;EACrC,WAAW,EAAE,GAAI;EACjB,UAAU,EAAE,MAAO;CACpB;;;AAED,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,KAAM;EAClB,KAAK,EAAE,KAAM;CAEhB;;;AAGD,AAAA,OAAO,CAAC;EAEJ,UAAU,EAAE,GAAI;EAChB,KAAK,EAAE,KAAM;EACb,gBAAgB,EAAsC,sCAAC;EACvD,iBAAiB,EAAE,SAAU;EAC7B,mBAAmB,EAAE,UAAW;EAChC,eAAe,EAAE,KAAM;CAK1B;;;AAZD,AASI,OATG,CASH,EAAE,CAAC;EACC,WAAW,EAAE,uBAAwB;CACxC;;;AAGL,AAAA,KAAK,CAAC;EACF,WAAW,EAAE,IAAK;EAClB,YAAY,EAAE,IAAK;CACtB;;;AAED,AAAA,MAAM,CAAC;EACF,UAAU,EAAE,KAAM;EACnB,KAAK,EAAE,KAAM;EACb,gBAAgB,EAA0B,0BAAC;EAC3C,iBAAiB,EAAE,SAAU;EAC7B,mBAAmB,EAAE,UAAW;EAChC,eAAe,EAAE,KAAM;CAE1B",
+	"names": []
+}
